@@ -1,0 +1,16 @@
+composite-failure-simulation/
+│
+├── docs/                      # Теоретические материалы, формулы, статьи
+│   └── theory_notes.pdf
+├── src/                       # Исходный код (Abaqus UMAT/VUMAT, ANSYS APDL, Python и т.д.)
+│   ├── subroutines/           # Пользовательские подпрограммы (Fortran/C++)
+│   │   └── vumat_hashin.f
+│   └── postprocessing/        # Скрипты для обработки результатов (Python)
+│       └── plot_damage.py
+├── models/                    # Файлы моделей и конечных элементов (.inp, .cae, .cdb)
+│   └── tension_test_3d.inp
+├── examples/                  # Примеры запуска и тестовые кейсы
+│   └── validation_example/
+├── LICENSE                    # Лицензия (например, MIT)
+├── .gitignore                 # Исключение временных файлов (например, логов Abaqus)
+└── README.md                  # Главный файл с описанием проекта
